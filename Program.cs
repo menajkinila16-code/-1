@@ -1,11 +1,12 @@
-﻿Console.WriteLine("ведите конечное число ");
-double x = Convert.ToDouble(Console.ReadLine());
-double i = 1;
+﻿Console.WriteLine("введети конечное значение ");
+double x = Convert.ToDouble(Console.ReadLine ());
 double S = 0;
-while (i <= x)
+for(double i=1; i <= x; i++)
 {
-    i++;
+
     S += i / (i++);
 
 }
-Console.WriteLine(S);
+Console.WriteLine(S );
+
+
